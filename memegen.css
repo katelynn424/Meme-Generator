@@ -1,0 +1,87 @@
+body {
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: lightslategray;
+    font-family: copperplate, arial, sans-serif ;
+} 
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Monaco, Arial, sans-serif;
+}
+
+label {
+    font-family: courier new, Arial;
+    
+}
+
+#background {
+    background-image: url(https://media.istockphoto.com/id/1371051021/vector/abstract-japanese-landscape-flat-wavy-boho-aesthetic-banner-with-curvy-shapes.jpg?s=612x612&w=0&k=20&c=hEm_U-2AL5DAi78waOb0EOvUAtPlcYBqGN--n48Oz0I=);
+}
+
+
+#meme-generator {
+    margin: 20px auto;
+    width: 400px;
+}
+
+#meme-generator label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#meme-generator input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.meme-generated {
+    position: relative;
+    /* justify-content: center;
+    border-radius: 0.5rem; */
+    width: 60%;
+    
+}
+
+.meme-generated img {
+    width: 60%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+ .new-top-text{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    top: 20px;
+    right: 0px;
+    left: 10px;
+    color: black;
+    overflow-wrap: normal;
+    display: flex;
+    width: 60%;
+}
+
+.new-btm-text {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    bottom: 30px;
+    left: 10px;
+    right: 0px;
+    color: black;
+    overflow-wrap: normal;
+    display: flex;
+    width: 60%;
+} 
